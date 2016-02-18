@@ -1,0 +1,36 @@
+@media screen only
+    and (min-device-width:320px)
+    and (max-device-width :480px){
+
+
+
+    }
+
+
+    @media screen and (min-width: 480px) {
+
+  
+
+      #primary {
+        width: 50%;
+        float: left;
+      }
+
+      #secondary {
+        width: 40%;
+        float: right;
+      }
+
+
+
+
+
+    @media screen and (min-width: 660px) {
+
+    }
+
+
+
+@media {
+  orientation: landscape;
+}
