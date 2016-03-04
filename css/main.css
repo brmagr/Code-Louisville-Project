@@ -4,6 +4,9 @@ background-color: #00ace6;
 min-height: 100%;
 margin: 0 0 100px;
 width: 100%;
+
+
+
 }
 
 html {
@@ -68,7 +71,7 @@ html {
 
 .accordion-section-content {
     display:none;
-    
+
 }
 
 
@@ -141,7 +144,7 @@ html {
 
 
 .hours {
-    
+
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -155,10 +158,65 @@ html {
 
 
 .Entrance {
-    
+
     width: 250px;
     height: 250px;
-    
+
+}
+
+.FishTank {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.Restrooms {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.DiningRoom {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.DiningRoom2 {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.DiningRoom3 {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.Bar {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.Bar2 {
+
+    width: 250px;
+    height: 250px;
+
 }
 
 
@@ -181,21 +239,20 @@ text-decoration: none;
 
 }
 
+.header {
+  background-color: black;
+  text-align: center;
+  border-style: outset;
 
+}
 
 
 h1  {
 font-size: 36pt;
 font-family: 'Playfair Display', serif;letter-spacing:  .2em;
 word-spacing:  .1em;
-text-align: center;
-margin: -25px;
 color: white;
-background-color: black;
-padding: 15px 15px;
 text-shadow: 1.5px 1.5px 6px white;
-display: block;
-
 }
 
 
@@ -208,17 +265,17 @@ h2  {
   letter-spacing:  .2em;
   word-spacing:  .1em;
   text-align: center;
-  margin: -25px;
-  padding: 15px 15px;
-  display: block;
 }
 
+
+.text-center {
+  text-align: center;
+}
 
 
 
 p {
   color: white;
-  text-align: center;
 
 }
 
@@ -288,18 +345,20 @@ li a {
 
 }
 
-li.first {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+
+  .menuitem {
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+margin: 5px;
+
 
 }
 
-li.last   {
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
 
-
-
+li.menuitem a:hover, li.menuitem a:active {
+background-color: white;
 }
 
 .body {
