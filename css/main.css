@@ -1,19 +1,15 @@
 body {
-color: black;
-background-color: #00ace6;
-min-height: 100%;
-margin: 0 0 100px;
-width: 100%;
-
-
-
+  color: black;
+  background-color: #00ace6;
+  min-height: 100%;
+  margin: 0 0 100px;
+  width: 100%;
 }
 
 html {
   position: relative;
   min-height: 100%;
   width: 100%;
-
 }
 
 
@@ -24,57 +20,56 @@ html {
 
 
 .accordion, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .accordion {
-    float: left;
-    overflow:hidden;
-    box-shadow:0px 1px 3px;
-    border-radius:3px;
-    background:black;
-    text-align: center;
-    width: 25%;
-    margin: 38%;
-    margin-top: 2%;
-    margin-bottom: 10%;
-
+  float: left;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px;
+  border-radius: 3px;
+  background: black;
+  text-align: center;
+  width: 25%;
+  margin: 38%;
+  margin-top: 2%;
+  margin-bottom: 10%;
 }
 
 /*----- Accordion Title 1 -----*/
 .accordion-section-title {
-    width: 100%;
-    padding:15px;
-    display:block;
-    border-bottom:1px solid #1a1a1a;
-    background: white;
-    transition:all linear 0.25s;
-    font-size:26px;
-    text-shadow:0px 1px 0px #1a1a1a;
-    color:black;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
+  width: 100%;
+  padding: 15px;
+  display: block;
+  border-bottom: 1px solid #1a1a1a;
+  background: white;
+  transition: all linear 0.25s;
+  font-size: 26px;
+  text-shadow: 0px 1px 0px #1a1a1a;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
-    text-decoration:none;
+  text-decoration: none;
+
 }
 
 .accordion-section:last-child .accordion-section-title {
-    border-bottom:none;
-    color: black;
+  border-bottom: none;
+  color: black;
 }
-
 
 .accordion-section-content {
-    display:none;
-
+  display: none;
 }
 
-
+.acc {
+  color: white;
+}
 
   /*-----
       1. May add a later date
@@ -143,88 +138,36 @@ html {
 -----*/
 
 
+.pic, .pic2 {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 5%;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 150%;
+  width: 250px;
+  height: 250px;
+}
+
 .hours {
-
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    margin-bottom: 25%;
-    display: block;
-    font-family: sans-serif;
-    font-weight: bold;
-    line-height: 150%;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 20%;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 150%;
 }
-
-
-
-.Entrance {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-.FishTank {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-
-.Restrooms {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-
-.DiningRoom {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-
-.DiningRoom2 {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-
-.DiningRoom3 {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-
-.Bar {
-
-    width: 250px;
-    height: 250px;
-
-}
-
-
-.Bar2 {
-
-    width: 250px;
-    height: 250px;
-
-}
-
 
 li:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
-
 }
 
 li:visited {
@@ -234,51 +177,55 @@ li:visited {
 }
 
 a {
-
-text-decoration: none;
-
+  text-decoration: none;
 }
 
 .header {
   background-color: black;
   text-align: center;
   border-style: outset;
-
 }
 
-
-h1  {
-font-size: 36pt;
-font-family: 'Playfair Display', serif;letter-spacing:  .2em;
-word-spacing:  .1em;
-color: white;
-text-shadow: 1.5px 1.5px 6px white;
+h1 {
+  font-size: 36pt;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: .2em;
+  word-spacing: .1em;
+  color: white;
+  text-shadow: 1.5px 1.5px 6px white;
 }
 
-
-h2  {
+h2 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-style: italic;
   color: white;
   background-color: black;
   font-size: 10pt;
-  letter-spacing:  .2em;
-  word-spacing:  .1em;
+  letter-spacing: .2em;
+  word-spacing: .1em;
   text-align: center;
 }
-
 
 .text-center {
   text-align: center;
 }
 
-
-
-p {
+.aboutp {
   color: white;
-
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
+.picturesp {
+  color: white;
+  text-align: center;
+}
+
+.contactp {
+  color: white;
+  text-align: center;
+}
 
 #wrapper {
   max-width: 100%;
@@ -287,53 +234,39 @@ p {
   padding: 0 5%;
 }
 
-
-
 .div-nav {
   text-align: center;
   margin: 0;
-
 }
 
 ul {
   display: inline-block;
   text-align: left;
-
-
-
 }
+
 nav {
-
   text-align: center;
-
 }
 
 nav a {
   font-weight: 500;
   font-family: sans-serif;
-
-
 }
 
-  ul#list-nav li {
-    list-style: none;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    margin-top: 25px;
-    padding: 0;
-    border: 2px solid;
-    overflow: hidden;
-    background-color: black;
-
-
+ul#list-nav li {
+  list-style: none;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 25px;
+  padding: 0;
+  border: 2px solid;
+  overflow: hidden;
+  background-color: black;
 }
-
-
 
 nav li {
   float: left;
   margin-left: 0;
-
 }
 
 li a {
@@ -341,29 +274,23 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
-
 }
 
-
-  .menuitem {
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-border-top-right-radius: 15px;
-border-bottom-right-radius: 15px;
-margin: 5px;
-
-
+.menuitem {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 5px;
 }
-
 
 li.menuitem a:hover, li.menuitem a:active {
-background-color: white;
+  background-color: white;
+  color: black;
 }
 
 .body {
   background-attachment: fixed;
-
 }
 
 /* 1. image conflicted with footer
@@ -379,24 +306,42 @@ background-color: white;
 }
 */
 
+.sb {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: inset;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sbt {
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  margin-left: 60px;
+  margin-right: 50px;
+  padding: 0 0 0 10px;
+}
 
 .hungrymap {
-    height: 800px;
-    width: 1200px;
-    padding-bottom: 80px;
-
-
+  height: 800px;
+  width: 1200px;
+  padding-bottom: 80px;
 }
 
-
-.social-icon {
+.f-icon {
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+  height: 50px;
   width: 40px;
-  height: 40px;
-  margin: 0 5px;
-  color: white;
+  padding-top: 0;
+  padding-left: 10px;
   text-align: center;
+  color: white;
+  font-size: 50px;
+  background-color: blue;
 }
-
 
 .main-footer {
   position: absolute;
@@ -407,13 +352,11 @@ background-color: white;
   padding-top: 50px;
   height: 100px;
   width: 100%;
-
 }
 
 .copy {
-
-color: black;
-text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .directionsp {
@@ -422,17 +365,13 @@ text-align: center;
   text-align: center;
   color: white;
   padding: 10px 10px;
-
-
 }
 
 .addy {
   text-align: center;
   color: white;
   padding-bottom: 20px;
-
 }
-
 
 .top {
   padding-top: 20px;

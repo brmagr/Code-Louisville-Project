@@ -1,92 +1,91 @@
 <!DOCTYPE html>
 <!--Hungry Pelican Web Page
-	Created by: Brent Gross
-	Date: January 19, 2016
--->
+    Created by: Brent Gross
+    Date: January 19, 2016
+    -->
 <html>
-<head>
-	<script src="jquery2.2.0.js"></script>
-	<script src="accordion.js"></script>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"	href="css/responsive.css">
-    <link rel="stylesheet"	href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
-		<title>The Hungry Pelican</title>
-</head>
+    <head>
+        <script src="jquery2.2.0.js"></script>
+        <script src="accordion.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"	href="css/responsive.css">
+        <link rel="stylesheet"	href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Noto+Sans:700' rel='stylesheet' type='text/css'>
+        <title>The Hungry Pelican</title>
+    </head>
+    <body>
+        <header class="header">
 
-<body>	
-	<header class="header">
-		<a href="home.html" id="logo">
-			<h1>The<br>Hungry Pelican</h1>
-			<h2>"Kentukiana's Best Seafood Since 1953"</h2>
-		</a>
-		<nav class="nav">
-			<div class="div-nav">
-				<ul id="list-nav">
-					<li class="menuitem"><a href="home.html">Home</a></li>
-					<li class="menuitem"><a href="about.html">About</a></li>
-					<li class="menuitem"><a href="bar.html">Bar</a></li>
-					<li class="menuitem"><a href="coupons.html">Coupons</a></li>
-					<li class="menuitem"><a href="pictures.html">Pictures</a></li>
-					<li class="menuitem"><a href="directions.html">Directions</a></li>
-					<li class="menuitem"><a href="contact us.html">Contact Us</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+                <h1>The<br>Hungry Pelican</h1>
+                <h2>"Kentukiana's Best Seafood Since 1953"</h2>
 
-	<!--Accordion menu(s)-->
-	<div class="accordion" >
-		<div class="accordion-section">
-			<a class="accordion-section-title" href="#accordion-1">Menu</a>
-			<div id = "accordion-1" class = "accordion-section-content">
-				<p>Appetizers</p>
-				<p>Side Trips</p>
-				<p>Sandwiches</p>
-				<p>Fish and Seafood</p>
-				<p>Mixed Platters</p>
-				<p>Dockside Delites</p>
-				<p>Galley Broiler</p>
-				<p>Shrimp Fest</p>
-				<p>Chicken-Fest Platters</p>
-				<p>Senior Citizens Platters</p>
-				<p>Wet Your Whistle</p>
-				<p>Desserts</p>
-				<p>Little Mates Plates</p>
-				<p>Lunch Menu</p>
-			</div>
-		</div>
-	</div>
-	<div>
-    <ul class="hours text-center">
-			<li>Hours of operation</li>
-			<li>Sunday: 		11:30 AM - 8 PM</li>
-			<li>Monday: 		11:30 AM - 8 PM</li>
-			<li>Tuesday: 	11:30 AM - 9 PM</li>
-			<li>Wednesday:   11:30 AM - 9 PM</li>
-			<li>Thursday: 	11:30 AM - 9 PM</li>
-			<li>Friday: 		11:30 AM - 10 PM</li>
-			<li>Saturday: 	11:30 AM - 9:30 PM</li>
-    </ul>
-</div>
-
-<!--May add at a later date
-<div class="accordion2">
-	<div class="accordion-section2">
-		<a class="accordion-section-title2" href="#accordion-2">Full Menu</a>
-		<div id = "accordion-2" class = "accordion-section-content2">
-		<p>asdadfadafdaffd</p>
-		</div>
-	</div>
-</div>
--->
-<footer class="main-footer">
-	<a href="#top" class="top">Back to top &raquo;</a>
-	<br>
-	<br>
-	<a href="https://www.facebook.com/The-Hungry-Pelican-121237387890002/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-	<p class="copy">&copy; 2016 Brent Gross.</p>
-	</footer>
-</body>
+        </header>
+        <nav class="nav">
+            <div class="div-nav">
+                <ul id="list-nav">
+                    <li class="menuitem"><a href="home.html">Home</a></li>
+                    <li class="menuitem"><a href="about.html">About</a></li>
+                    <li class="menuitem"><a href="pictures.html">Pictures</a></li>
+                    <li class="menuitem"><a href="directions.html">Directions</a></li>
+                    <li class="menuitem"><a href="contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="sbt">Search</p>
+        <input type="text" my-Search-Box="callRestService()" class="sb">
+        <!--Accordion menu(s)-->
+        <div class="accordion" >
+            <div class="accordion-section">
+                <a class="accordion-section-title" href="#accordion-1">Menu</a>
+                <div id = "accordion-1" class = "accordion-section-content">
+                    <p class="acc">Appetizers</p>
+                    <p class="acc">Side Trips</p>
+                    <p class="acc">Sandwiches</p>
+                    <p class="acc">Fish and Seafood</p>
+                    <p class="acc">Mixed Platters</p>
+                    <p class="acc">Dockside Delites</p>
+                    <p class="acc">Galley Broiler</p>
+                    <p class="acc">Shrimp Fest</p>
+                    <p class="acc">Chicken-Fest Platters</p>
+                    <p class="acc">Senior Citizens Platters</p>
+                    <p class="acc">Wet Your Whistle</p>
+                    <p class="acc">Desserts</p>
+                    <p class="acc">Little Mates Plates</p>
+                    <p class="acc">Lunch Menu</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="hours text-center">
+                <li>Hours of operation</li>
+                <li>Sunday: 		11:30 AM - 8 PM</li>
+                <li>Monday: 		11:30 AM - 8 PM</li>
+                <li>Tuesday: 	11:30 AM - 9 PM</li>
+                <li>Wednesday:   11:30 AM - 9 PM</li>
+                <li>Thursday: 	11:30 AM - 9 PM</li>
+                <li>Friday: 		11:30 AM - 10 PM</li>
+                <li>Saturday: 	11:30 AM - 9:30 PM</li>
+            </ul>
+        </div>
+        <!--May add at a later date
+            <div class="accordion2">
+            	<div class="accordion-section2">
+            		<a class="accordion-section-title2" href="#accordion-2">Full Menu</a>
+            		<div id = "accordion-2" class = "accordion-section-content2">
+            		<p>asdadfadafdaffd</p>
+            		</div>
+            	</div>
+            </div>
+            -->
+        <footer class="main-footer">
+            <a href="https://www.facebook.com/The-Hungry-Pelican-121237387890002/" href="f" alt="Facebook Logo" class="f-icon">f</a>
+            <br>
+            <br>
+            <a href="#top" class="top">Back to top &raquo;</a>
+            <p class="copy">&copy; 2016 Brent Gross.</p>
+        </footer>
+    </body>
 </html>
