@@ -3,9 +3,11 @@
     Created by: Brent Gross
     Date: January 19, 2016
     -->
-<html>
+<html ng-app="searchApp">
     <head>
         <script src="jquery2.2.0.js"></script>
+        <script src="angularsearch.js"></script>
+        <script src="controller.js"></script>
         <script src="accordion.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +18,7 @@
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans:700' rel='stylesheet' type='text/css'>
         <title>The Hungry Pelican</title>
     </head>
-    <body>
+    <body ng-controller="controller">
         <header class="header">
 
                 <h1>The<br>Hungry Pelican</h1>
