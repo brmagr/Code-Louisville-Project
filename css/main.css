@@ -324,10 +324,9 @@ li.menuitem a:hover, li.menuitem a:active {
   padding: 0 0 0 10px;
 }
 
-.hungrymap {
-  height: 800px;
-  width: 1200px;
-  padding-bottom: 80px;
+#floating-panel {
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .f-icon {
@@ -354,6 +353,16 @@ li.menuitem a:hover, li.menuitem a:active {
   width: 100%;
 }
 
+.main-footer-d {
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  clear: both;
+  padding-top: 50px;
+  height: 100px;
+  width: 100%;
+}
+
 .copy {
   color: black;
   text-align: center;
@@ -370,7 +379,7 @@ li.menuitem a:hover, li.menuitem a:active {
 .addy {
   text-align: center;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .top {
