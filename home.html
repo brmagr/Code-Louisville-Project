@@ -3,11 +3,11 @@
     Created by: Brent Gross
     Date: January 19, 2016
     -->
-<html>
+<html ng-app=SearchApp>
     <head>
         <script src="jquery2.2.0.js"></script>
+        <script data-require="angular.js@1.2.0-rc3" data-semver="1.2.0-rc3" src="http://code.angularjs.org/1.2.0-rc.3/angular.min.js"></script>
         <script src="angularsearch.js"></script>
-        <script src="controller.js"></script>
         <script src="accordion.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans:700' rel='stylesheet' type='text/css'>
         <title>The Hungry Pelican</title>
     </head>
-    <body>
+    <body ng-controller="seaCtrl">
         <header class="header">
 
                 <h1>The<br>Hungry Pelican</h1>
@@ -36,27 +36,44 @@
                 </ul>
             </div>
         </nav>
-        <p class="sbt">Search</p>
-        <input type="text" search class="sb">
+
+        <table>
+            <tr>
+                <td align="right">Search :</td>
+                <td><input ng-model="query[queryBy]" /></td>
+            </tr>
+        </table>
+        <br>
+        <div>
+          <table>
+
+                <tr ng-repeat="sea in searches | filter:query">
+                    <td>{{sea.name}}</td>
+                </tr>
+              </table>
+        </div>
+
+
+
         <!--Accordion menu(s)-->
         <div class="accordion" >
             <div class="accordion-section">
                 <a class="accordion-section-title" href="#accordion-1">Menu</a>
                 <div id = "accordion-1" class = "accordion-section-content">
-                    <p class="acc">Appetizers</p>
-                    <p class="acc">Side Trips</p>
-                    <p class="acc">Sandwiches</p>
-                    <p class="acc">Fish and Seafood</p>
-                    <p class="acc">Mixed Platters</p>
-                    <p class="acc">Dockside Delites</p>
-                    <p class="acc">Galley Broiler</p>
-                    <p class="acc">Shrimp Fest</p>
-                    <p class="acc">Chicken-Fest Platters</p>
-                    <p class="acc">Senior Citizens Platters</p>
-                    <p class="acc">Wet Your Whistle</p>
-                    <p class="acc">Desserts</p>
-                    <p class="acc">Little Mates Plates</p>
-                    <p class="acc">Lunch Menu</p>
+                    <a href="menus/appetizersmenu.html" class="acc">Appetizers</a><br><br>
+                    <a href="menus/sidetripmenu.html" class="acc">Side Trips</a><br><br>
+                    <a href="menus/sandwiches.html" class="acc">Sandwiches</a><br><br>
+                    <a href="menus/seafood.html" class="acc">Fish and Seafood</a><br><br>
+                    <a href="menus/platters.html" class="acc">Mixed Platters</a><br><br>
+                    <a href="menus/seafood.html" class="acc">Dockside Delites</a><br><br>
+                    <a href="menus/seafood.html" class="acc">Galley Broiler</a><br><br>
+                    <a href="menus/seafood.html" class="acc">Shrimp Fest</a><br><br>
+                    <a href="menus/platters.html" class="acc">Chicken-Fest Platters</a><br><br>
+                    <a href="menus/platters.html" class="acc">Senior Citizens Platters</a><br><br>
+                    <a href="menus/wyw.html" class="acc">Wet Your Whistle</a><br><br>
+                    <a href="menus/desserts.html" class="acc">Desserts</a><br><br>
+                    <a href="menus/kids.html" class="acc">Little Mates Plates</a><br><br>
+                    <a href="menus/lunch.html" class="acc">Lunch Menu</a>
                 </div>
             </div>
         </div>

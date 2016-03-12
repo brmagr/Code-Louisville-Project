@@ -71,6 +71,7 @@ html {
   color: white;
 }
 
+
   /*-----
       1. May add a later date
       2. Accordion 2
@@ -241,7 +242,7 @@ h2 {
 
 ul {
   display: inline-block;
-  text-align: left;
+
 }
 
 nav {
@@ -258,7 +259,6 @@ ul#list-nav li {
   margin-left: 0 auto;
   margin-right: 0 auto;
   margin-top: 25px;
-  padding: 0;
   border: 2px solid;
   overflow: hidden;
   background-color: black;
@@ -275,6 +275,8 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/* Accorion Menu */
 
 .menuitem {
   border-top-left-radius: 15px;
@@ -307,22 +309,12 @@ li.menuitem a:hover, li.menuitem a:active {
 */
 
 .sb {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-style: inset;
-  margin-left: 10px;
-  margin-right: 10px;
+  border: none;
+  border: 0;
+
 }
 
-.sbt {
-  font-family: 'Noto Sans', sans-serif;
-  color: black;
-  margin-left: 60px;
-  margin-right: 50px;
-  padding: 0 0 0 10px;
-}
+
 
 #floating-panel {
   text-align: center;
@@ -385,4 +377,5 @@ li.menuitem a:hover, li.menuitem a:active {
 .top {
   padding-top: 20px;
   text-align: center;
+  color: black;
 }
