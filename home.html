@@ -4,11 +4,11 @@
     Date: January 19, 2016
     -->
 <html ng-app=SearchApp>
-    <head>
-        <script src="jquery2.2.0.js"></script>
+    <head>  
+        <script src="js/jquery2.2.0.js"></script>
         <script data-require="angular.js@1.2.0-rc3" data-semver="1.2.0-rc3" src="http://code.angularjs.org/1.2.0-rc.3/angular.min.js"></script>
-        <script src="angularsearch.js"></script>
-        <script src="accordion.js"></script>
+        <script src="js/angularsearch.js"></script>
+        <script src="js/accordion.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"	href="css/responsive.css">
@@ -37,7 +37,7 @@
             </div>
         </nav>
 
-        <table>
+        <table class="search-table">
             <tr>
                 <td align="right">Search :</td>
                 <td><input ng-model="query[queryBy]" /></td>

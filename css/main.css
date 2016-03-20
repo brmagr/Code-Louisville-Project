@@ -26,16 +26,11 @@ html {
 }
 
 .accordion {
-  float: left;
-  overflow: hidden;
-  box-shadow: 0px 1px 3px;
-  border-radius: 3px;
+  margin: 0 auto;
   background: black;
   text-align: center;
-  width: 25%;
-  margin: 38%;
-  margin-top: 2%;
-  margin-bottom: 10%;
+  width: 50%;
+  margin-top: 100px;
 }
 
 /*----- Accordion Title 1 -----*/
@@ -55,7 +50,6 @@ html {
 
 .accordion-section-title.active, .accordion-section-title:hover {
   text-decoration: none;
-
 }
 
 .accordion-section:last-child .accordion-section-title {
@@ -65,13 +59,16 @@ html {
 
 .accordion-section-content {
   display: none;
+  margin-top: 25px;
 }
 
 .acc {
   color: white;
 }
 
-
+.accordion-section {
+    width: 100%;
+}
   /*-----
       1. May add a later date
       2. Accordion 2
@@ -158,6 +155,7 @@ html {
   text-align: center;
   text-decoration: none;
   list-style: none;
+  margin-top: 50px;
   margin-bottom: 20%;
   display: block;
   font-family: sans-serif;
@@ -218,9 +216,18 @@ h2 {
   margin-right: 25%;
 }
 
+.aboutp1 {
+  color: white;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 100px;
+}
+
 .picturesp {
   color: white;
   text-align: center;
+  margin-top: 100px;
 }
 
 .contactp {
@@ -228,11 +235,10 @@ h2 {
   text-align: center;
 }
 
-#wrapper {
-  max-width: 100%;
-  min-height: 100%;
-  margin: 0 auto;
-  padding: 0 5%;
+.contactp1 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .div-nav {
@@ -241,7 +247,7 @@ h2 {
 }
 
 ul {
-  display: inline-block;
+  padding-left: 0;
 
 }
 
@@ -258,10 +264,12 @@ ul#list-nav li {
   list-style: none;
   margin-left: 0 auto;
   margin-right: 0 auto;
-  margin-top: 25px;
+  margin-top: 0 auto:
+  margin-bottom: 0 auto;
   border: 2px solid;
   overflow: hidden;
   background-color: black;
+  width: 10%;
 }
 
 nav li {
@@ -276,8 +284,6 @@ li a {
   text-decoration: none;
 }
 
-/* Accorion Menu */
-
 .menuitem {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -286,10 +292,14 @@ li a {
   margin: 5px;
 }
 
+
+
 li.menuitem a:hover, li.menuitem a:active {
   background-color: white;
   color: black;
 }
+
+
 
 .body {
   background-attachment: fixed;
@@ -366,6 +376,7 @@ li.menuitem a:hover, li.menuitem a:active {
   text-align: center;
   color: white;
   padding: 10px 10px;
+  margin-top: 100px;
 }
 
 .addy {
@@ -378,4 +389,8 @@ li.menuitem a:hover, li.menuitem a:active {
   padding-top: 20px;
   text-align: center;
   color: black;
+}
+
+.search-table {
+  margin-top: 100px;
 }
